@@ -2,7 +2,7 @@
 
 **TikTok data API · TikTok video search · TikTok comments · TikTok creator profiles and followers · TikTok Ads Library and Creative Center · TikTok Shop · TikTok transcripts.**
 
-Examples for the [okdata](https://okdata.online/?src=gh-tiktok-api) TikTok API: 17 live endpoints behind one API key, pay per call from $0.002, and a failed call costs nothing. No TikTok login, no cookies and no browser, so there is no account to get blocked.
+Examples for the [okdata](https://okdata.online/?src=gh-tiktok-api) TikTok API: 17 live endpoints behind one API key, pay per call from $0.002. No TikTok login, no cookies and no browser, so there is no account to get blocked.
 
 [Sign up free ($0.10 of trial credit)](https://okdata.online/signup/?src=gh-tiktok-api) · [All TikTok endpoints](https://okdata.online/apis/tiktok/?src=gh-tiktok-api) · [Use it from Claude, Cursor or any MCP client](https://okdata.online/mcp/?src=gh-tiktok-api)
 
@@ -73,7 +73,7 @@ Then ask in plain words, for example "TikTok video search: ai agents". The agent
 
 **Do I need a TikTok account?** No. The data is public content, fetched on the server; your own account is never involved.
 
-**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. Failed calls, timeouts included, are free. New accounts get $0.10 to try; after that you top up as you go, with no subscription. Pricing: https://okdata.online/pricing/
+**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. A call that reached the data source is charged even when it comes back empty, not found or failed (one item for per-item endpoints); calls stopped before reaching a source (bad parameters, balance) are free. New accounts get $0.10 to try; after that you top up as you go, with no subscription. Pricing: https://okdata.online/pricing/
 
 **Why not TikTok's own APIs?** The Display API reads only the accounts that log in to your app, and the Research API is for approved academic and non-profit researchers. This returns what anyone can see on TikTok: search results, other creators' videos and profiles, comments, hashtags and ads.
 
@@ -85,7 +85,7 @@ Then ask in plain words, for example "TikTok video search: ai agents". The agent
 
 **TikTok 数据 API · TikTok 视频搜索 · TikTok 评论采集 · TikTok 达人数据 · TikTok 广告库 · TikTok 字幕。**
 
-okdata 的TikTok接口示例：17 个接口在线可用，一个 API Key 调用，按次计费（$0.002 起），失败不扣费，不用登录平台账号、不用 Cookie。中文文档：https://okdata.online/zh/apis/tiktok/?src=gh-tiktok-api · 注册：https://okdata.online/zh/signup/?src=gh-tiktok-api · 接入 AI（MCP）：https://okdata.online/zh/mcp/?src=gh-tiktok-api
+okdata 的TikTok接口示例：17 个接口在线可用，一个 API Key 调用，按次计费（$0.002 起），不用登录平台账号、不用 Cookie。中文文档：https://okdata.online/zh/apis/tiktok/?src=gh-tiktok-api · 注册：https://okdata.online/zh/signup/?src=gh-tiktok-api · 接入 AI（MCP）：https://okdata.online/zh/mcp/?src=gh-tiktok-api
 
 ## License
 
