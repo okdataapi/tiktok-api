@@ -1,37 +1,37 @@
-# TikTok 数据接口（TikTok API）：视频搜索、评论、达人、话题、广告、字幕
+# TikTok API: video search, comments, creators, hashtags, ads and transcripts
 
-**TikTok 数据 API · TikTok 视频搜索 · TikTok 评论采集 · TikTok 达人数据 · TikTok 广告库 · TikTok 字幕。**
+**TikTok data API · TikTok video search · TikTok comments · TikTok creator profiles and followers · TikTok Ads Library and Creative Center · TikTok Shop · TikTok transcripts.**
 
-这个仓库是 [okdata](https://okdata.online/zh/?src=gh-tiktok-api) 的TikTok接口示例：17 个接口在线可用，一个 API Key 调用，按次计费（$0.002 起），失败不扣费。不用登录平台账号，不用 Cookie，不开浏览器，所以也不存在账号被风控的问题。
+Examples for the [okdata](https://okdata.online/?src=gh-tiktok-api) TikTok API: 17 live endpoints behind one API key, pay per call from $0.002, and a failed call costs nothing. No TikTok login, no cookies and no browser, so there is no account to get blocked.
 
-[免费注册拿 Key（送 $0.1 试用额度）](https://okdata.online/zh/signup/?src=gh-tiktok-api) · [全部接口文档](https://okdata.online/zh/apis/?src=gh-tiktok-api) · [接入 AI（MCP）](https://okdata.online/zh/mcp/?src=gh-tiktok-api)
+[Sign up free ($0.10 of trial credit)](https://okdata.online/signup/?src=gh-tiktok-api) · [All TikTok endpoints](https://okdata.online/apis/tiktok/?src=gh-tiktok-api) · [Use it from Claude, Cursor or any MCP client](https://okdata.online/mcp/?src=gh-tiktok-api)
 
-## 接口清单
+## Endpoints
 
-| 接口 | 说明 | 价格 | 路径 |
+| Endpoint | What it returns | Price | Path |
 |---|---|---|---|
-| [TikTok 视频搜索](https://okdata.online/zh/apis/tiktok/videos/search/) | 按关键词搜全球的 TikTok 视频，带播放、点赞、评论和分享。 | $0.002 / 次 | `GET /v1/tiktok/videos/search` |
-| [TikTok 视频详情](https://okdata.online/zh/apis/tiktok/videos/get/) | 按 ID 或链接取一个视频。 | $0.002 / 次 | `GET /v1/tiktok/videos/get` |
-| [TikTok 视频评论](https://okdata.online/zh/apis/tiktok/videos/comments/list/) | 视频评论，带点赞和回复数。 | $0.002 / 次 | `GET /v1/tiktok/videos/comments/list` |
-| [TikTok 账号信息](https://okdata.online/zh/apis/tiktok/users/get/) | 账号的粉丝、获赞、作品数和简介。 | $0.002 / 次 | `GET /v1/tiktok/users/get` |
-| [TikTok 广告库搜索](https://okdata.online/zh/apis/tiktok/ads/search/) | 按关键词或广告主名称搜 TikTok 公开广告库（在欧洲投放的广告）：广告主、标题、视频和图片、首次和最近投放日期，以及广告库给出的触达人数区间。这是全部广告的透明记录，不是创意中心的精选。 | $0.004 / 次 | `GET /v1/tiktok/ads/search` |
-| [TikTok 创意中心热门广告](https://okdata.online/zh/apis/tiktok/creative_center/ads/search/) | 按关键词搜 TikTok 创意中心的热门广告：广告视频、文案和品牌，按国家和近 7、30 或 180 天。view=full 时另有点赞、点击率、预算档位、投放目标和行业。这是表现好的广告精选，没有投放日期。 | $0.002 / 次 | `GET /v1/tiktok/creative_center/ads/search` |
-| [TikTok Shop 商品搜索](https://okdata.online/zh/apis/tiktok/shop/products/search/) | 按关键词搜 TikTok Shop 商品：标题、现价和原价、销量、评分、评价数、图片和店铺。 | $0.004 / 次 | `GET /v1/tiktok/shop/products/search` |
-| [TikTok Shop 商品详情](https://okdata.online/zh/apis/tiktok/shop/products/get/) | 按 ID 或链接取一个 TikTok Shop 商品：标题、价格和折扣、销量、评分、评价数、全部图片，以及店铺和店铺评分、粉丝数。 | $0.002 / 次 | `GET /v1/tiktok/shop/products/get` |
-| [TikTok Shop 商品评价](https://okdata.online/zh/apis/tiktok/shop/products/reviews/list/) | TikTok Shop 商品的买家评价：星级、内容、购买的款式、晒图，以及是否为已验证购买。 | $0.002 / 次 | `GET /v1/tiktok/shop/products/reviews/list` |
-| [TikTok 视频字幕](https://okdata.online/zh/apis/tiktok/videos/transcript/get/) | 按视频 ID 或链接取 TikTok 视频里说的话：全文和带时间的分段，来自视频的字幕（TikTok 自己的，多为自动生成）。lang 指定字幕语言；视频没有这种语言的字幕时按找不到处理，不收费。 | $0.002 / 次 | `GET /v1/tiktok/videos/transcript/get` |
-| [TikTok 评论回复](https://okdata.online/zh/apis/tiktok/comments/replies/list/) | 按评论 ID 和所在视频 ID 取这条评论下的回复，每页 20 条：内容、回复者、点赞、发布时间，以及每条回的是哪一条。评论不存在时和没有回复一样，返回空结果，不报 404。 | $0.002 / 次 | `GET /v1/tiktok/comments/replies/list` |
-| [TikTok 账号搜索](https://okdata.online/zh/apis/tiktok/users/search/) | 按关键词找 TikTok 账号，每页 30 个：用户名、名称、头像、粉丝数、关注数、作品数和获赞数。 | $0.002 / 次 | `GET /v1/tiktok/users/search` |
-| [TikTok 账号作品](https://okdata.online/zh/apis/tiktok/users/videos/list/) | 按用户名取账号发布的视频，每页 10 条，按最新或最热排：文案、播放、点赞、评论、分享、收藏和发布时间。置顶的视频会标出来（ext.is_pinned）。 | $0.002 / 次 | `GET /v1/tiktok/users/videos/list` |
-| [TikTok 创意中心热门广告详情](https://okdata.online/zh/apis/tiktok/creative_center/ads/get/) | 按 ID 取 TikTok 创意中心的一条热门广告：广告视频和封面、文案、品牌、落地页，ext 里还有点赞、评论、分享、时长、投放目标、行业和投放国家。这是精选展示，没有投放日期。 | $0.002 / 次 | `GET /v1/tiktok/creative_center/ads/get` |
-| [TikTok Shop 店铺商品](https://okdata.online/zh/apis/tiktok/shop/sellers/products/list/) | 按店铺 ID 取一家 TikTok Shop 美国站店铺在售的商品，一页一页取（每页多少由 TikTok 决定，通常 10 到 20 个）：标题、现价和原价、评分、评价数、已售件数和图片。 | $0.002 / 次 | `GET /v1/tiktok/shop/sellers/products/list` |
-| [TikTok 账号粉丝列表](https://okdata.online/zh/apis/tiktok/users/followers/list/) | 按用户名或账号 ID 取关注某个 TikTok 账号的人，最新关注的在前，每页 20 个：用户名、名称、简介、头像、粉丝数、关注数、作品数、获赞数，ext 里还有粉丝的国家或地区和语言。 | $0.002 / 次 | `GET /v1/tiktok/users/followers/list` |
-| [TikTok 话题作品](https://okdata.online/zh/apis/tiktok/hashtags/videos/list/) | 按话题名取话题下的视频，每页约 20 条，按 TikTok 给的顺序：文案、作者、播放、点赞、评论、分享、收藏、话题标签和发布时间，ext 里还有时长、封面和音乐。 | $0.002 / 次 | `GET /v1/tiktok/hashtags/videos/list` |
+| [TikTok video search](https://okdata.online/apis/tiktok/videos/search/) | Videos matching keywords worldwide, with plays, likes, comments and shares. | $0.002 a call | `GET /v1/tiktok/videos/search` |
+| [TikTok video detail](https://okdata.online/apis/tiktok/videos/get/) | One video by ID or link. | $0.002 a call | `GET /v1/tiktok/videos/get` |
+| [TikTok video comments](https://okdata.online/apis/tiktok/videos/comments/list/) | Comments on a video with likes and reply counts. | $0.002 a call | `GET /v1/tiktok/videos/comments/list` |
+| [TikTok account profile](https://okdata.online/apis/tiktok/users/get/) | Followers, likes, video count and bio of an account. | $0.002 a call | `GET /v1/tiktok/users/get` |
+| [TikTok Ads Library search](https://okdata.online/apis/tiktok/ads/search/) | Search TikTok's public Ads Library (ads shown in Europe) by keyword or by advertiser name: advertiser, headline, videos and images, first and last day shown and the library's bracket of people reached. A transparency record of all ads, not the Creative Center's showcase. | $0.004 a call | `GET /v1/tiktok/ads/search` |
+| [TikTok Creative Center top ads](https://okdata.online/apis/tiktok/creative_center/ads/search/) | Search the Top Ads of TikTok's Creative Center by keyword: the ad's video, caption and brand, for one country over the last 7, 30 or 180 days. With view=full also likes, click-through rate, budget level, objective and industry. A showcase of ads that did well, without run dates. | $0.002 a call | `GET /v1/tiktok/creative_center/ads/search` |
+| [TikTok Shop product search](https://okdata.online/apis/tiktok/shop/products/search/) | Search TikTok Shop products by keyword: title, current and original price, units sold, rating, number of reviews, image and shop. | $0.004 a call | `GET /v1/tiktok/shop/products/search` |
+| [TikTok Shop product detail](https://okdata.online/apis/tiktok/shop/products/get/) | One TikTok Shop product by ID or link: title, price and discount, units sold, rating, number of reviews, all images, and the shop with its rating and followers. | $0.002 a call | `GET /v1/tiktok/shop/products/get` |
+| [TikTok Shop product reviews](https://okdata.online/apis/tiktok/shop/products/reviews/list/) | Buyers' reviews of a TikTok Shop product: stars, text, the variant bought, photos and whether the purchase is verified. | $0.002 a call | `GET /v1/tiktok/shop/products/reviews/list` |
+| [TikTok video transcript](https://okdata.online/apis/tiktok/videos/transcript/get/) | What is said in a TikTok video, by ID or link: the whole text and timed segments, from the video's captions (TikTok's own, often auto-generated). lang picks the captions' language; a video without captions in it is not found and not charged. | $0.002 a call | `GET /v1/tiktok/videos/transcript/get` |
+| [TikTok comment replies](https://okdata.online/apis/tiktok/comments/replies/list/) | The replies to a comment, by the comment's ID and its video's ID, 20 a page: text, replier, likes, time posted and which comment each one answers. A comment that does not exist reads like one without replies: an empty page, not a 404. | $0.002 a call | `GET /v1/tiktok/comments/replies/list` |
+| [TikTok account search](https://okdata.online/apis/tiktok/users/search/) | Find TikTok accounts by keyword, 30 a page: handle, name, avatar, followers, following, video count and likes received. | $0.002 a call | `GET /v1/tiktok/users/search` |
+| [TikTok account videos](https://okdata.online/apis/tiktok/users/videos/list/) | The videos an account posted, by handle, 10 a page, newest or most popular first: caption, plays, likes, comments, shares, saves and time posted. Pinned videos are marked as such (ext.is_pinned). | $0.002 a call | `GET /v1/tiktok/users/videos/list` |
+| [TikTok Creative Center top ad](https://okdata.online/apis/tiktok/creative_center/ads/get/) | One Top Ad of TikTok's Creative Center by its ID: the ad's video and cover, caption, brand, landing page, and under ext its likes, comments, shares, length, objective, industry and the countries it ran in. A showcase entry, without run dates. | $0.002 a call | `GET /v1/tiktok/creative_center/ads/get` |
+| [TikTok Shop seller products](https://okdata.online/apis/tiktok/shop/sellers/products/list/) | The products a TikTok Shop seller in the United States has on sale, by the seller's ID, a page at a time (TikTok sets the size, often 10 to 20): title, current and original price, rating, number of reviews, units sold and image. | $0.002 a call | `GET /v1/tiktok/shop/sellers/products/list` |
+| [TikTok account followers](https://okdata.online/apis/tiktok/users/followers/list/) | The accounts following a TikTok account, newest followers first, 20 a page, by handle or account ID: handle, name, bio, avatar, followers, following, video count, likes received, and (under ext) the follower's country or region and language. | $0.002 a call | `GET /v1/tiktok/users/followers/list` |
+| [TikTok hashtag videos](https://okdata.online/apis/tiktok/hashtags/videos/list/) | The videos under a hashtag, by its name, about 20 a page in TikTok's order: caption, author, plays, likes, comments, shares, saves, hashtags and time posted, with length, cover and music under ext. | $0.002 a call | `GET /v1/tiktok/hashtags/videos/list` |
 
-## 快速开始
+## Quick start
 
-1. 在 [okdata 控制台](https://okdata.online/zh/signup/?src=gh-tiktok-api) 用邮箱注册，拿到 `okd_` 开头的 Key。
-2. 调一次接口：
+1. Sign up at the [okdata console](https://okdata.online/signup/?src=gh-tiktok-api) with your email and copy the key that starts with `okd_`.
+2. Make a call:
 
 ```bash
 export OKDATA_API_KEY=okd_...
@@ -40,19 +40,19 @@ curl -G "https://api.okdata.online/v1/tiktok/videos/search" \
   --data-urlencode 'query=ai agents'
 ```
 
-Python 版在 [examples/quickstart.py](examples/quickstart.py)（只用标准库，会顺带演示翻页）：`python3 examples/quickstart.py`。
+The Python version is [examples/quickstart.py](examples/quickstart.py) (standard library only, and it fetches a second page too): `python3 examples/quickstart.py`.
 
-返回统一的结构：列表在 `data.items`，下一页用 `page.next_cursor` 传回 `cursor`，这次扣了多少钱在 `meta.billing.amount`，平台不提供的字段为 null 并在 `meta.unavailable` 里写明原因。
+Every endpoint answers in the same shape: the list is in `data.items`, `page.next_cursor` goes back as `cursor` for the next page, what the call cost is in `meta.billing.amount`, and a field the platform does not provide is null with the reason in `meta.unavailable`.
 
-## 让 AI 直接用（MCP）
+## Use it from AI (MCP)
 
-Claude Code：
+Claude Code:
 
 ```bash
 claude mcp add --transport http --scope user okdata https://api.okdata.online/mcp --header "Authorization: Bearer $OKDATA_API_KEY"
 ```
 
-Cursor、Cherry Studio、WorkBuddy 等支持远程 MCP 的客户端：
+Cursor, Windsurf, VS Code and other clients with remote MCP:
 
 ```json
 {
@@ -67,23 +67,25 @@ Cursor、Cherry Studio、WorkBuddy 等支持远程 MCP 的客户端：
 }
 ```
 
-接好以后直接用中文说需求，比如「TikTok 视频搜索：ai agents」。AI 会先用免费的 `find`、`describe` 找接口和看价格，再用 `call` 取数据。
+Then ask in plain words, for example "TikTok video search: ai agents". The agent uses the free `find` and `describe` tools to pick the endpoint and see its price, then `call` to fetch the data.
 
-## 常见问题
+## FAQ
 
-**要登录平台账号吗？** 不用。数据是公开内容，okdata 在服务端获取，你的账号完全不参与。
+**Do I need a TikTok account?** No. The data is public content, fetched on the server; your own account is never involved.
 
-**怎么收费？** 每个接口单独定价，表里写的就是一次调用的价格；按条计费的接口按实际返回条数算。调用失败（包括超时）不扣费。新账号送 $0.1 试用额度，之后按需充值，没有订阅。价格页：https://okdata.online/zh/pricing/
+**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. Failed calls, timeouts included, are free. New accounts get $0.10 to try; after that you top up as you go, with no subscription. Pricing: https://okdata.online/pricing/
 
-**和官方开放平台有什么区别？** 官方开放平台只能读授权给你的账号自己的数据，而且要企业资质和审核；这里是平台上任何人都能看到的公开数据，比如搜索结果、别人的笔记或视频、评论、热榜。
+**Why not TikTok's own APIs?** The Display API reads only the accounts that log in to your app, and the Research API is for approved academic and non-profit researchers. This returns what anyone can see on TikTok: search results, other creators' videos and profiles, comments, hashtags and ads.
 
-**能翻页吗？** 列表接口每页一次调用，把 `page.next_cursor` 原样传回 `cursor` 就是下一页，24 小时内有效。
+**Can I page through results?** Each page of a list is one call: pass `page.next_cursor` back as `cursor` for the next one. A cursor stays valid for 24 hours.
 
-**出错了怎么办？** 每个错误都有固定的 `code`、中文说明 `message_zh`，以及会不会扣费（`charged`）和要不要重试（`retry`）。全部错误码：https://okdata.online/zh/docs/errors/
+**What happens when a call fails?** Every error has a fixed `code`, a `message`, and says whether you were charged (`charged`) and whether to retry (`retry`). All error codes: https://okdata.online/docs/errors/
 
-## English
+## 中文说明
 
-Examples for the okdata TikTok API: 17 live endpoints behind one API key, pay per call from $0.002, failed calls free, no platform login or cookies. Sign up at https://okdata.online/signup/?src=gh-tiktok-api, docs at https://okdata.online/apis/, MCP at https://okdata.online/mcp/.
+**TikTok 数据 API · TikTok 视频搜索 · TikTok 评论采集 · TikTok 达人数据 · TikTok 广告库 · TikTok 字幕。**
+
+okdata 的TikTok接口示例：17 个接口在线可用，一个 API Key 调用，按次计费（$0.002 起），失败不扣费，不用登录平台账号、不用 Cookie。中文文档：https://okdata.online/zh/apis/tiktok/?src=gh-tiktok-api · 注册：https://okdata.online/zh/signup/?src=gh-tiktok-api · 接入 AI（MCP）：https://okdata.online/zh/mcp/?src=gh-tiktok-api
 
 ## License
 
