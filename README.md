@@ -73,7 +73,7 @@ Then ask in plain words, for example "TikTok video search: ai agents". The agent
 
 **Do I need a TikTok account?** No. The data is public content, fetched on the server; your own account is never involved.
 
-**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. A call that reached the data source is charged even when it comes back empty, not found or failed (one item for per-item endpoints); calls stopped before reaching a source (bad parameters, balance) are free. New accounts get $0.10 to try; after that you top up as you go, with no subscription. Pricing: https://okdata.online/pricing/
+**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. New accounts get $0.10 to try; after that, top-ups start at $10 and never expire, with no subscription. Pricing: https://okdata.online/pricing/ · Billing details: https://okdata.online/docs/billing/
 
 **Why not TikTok's own APIs?** The Display API reads only the accounts that log in to your app, and the Research API is for approved academic and non-profit researchers. This returns what anyone can see on TikTok: search results, other creators' videos and profiles, comments, hashtags and ads.
 
