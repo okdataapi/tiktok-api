@@ -4,7 +4,7 @@
 
 Examples for the [okdata](https://okdata.online/?src=gh-tiktok-api) TikTok API: 17 live endpoints behind one API key, pay per call from $0.002. No TikTok login, no cookies and no browser, so there is no account to get blocked.
 
-[Sign up free (free trial: up to 333 calls)](https://okdata.online/signup/?src=gh-tiktok-api) · [All TikTok endpoints](https://okdata.online/apis/tiktok/?src=gh-tiktok-api) · [Use it from Claude, Cursor or any MCP client](https://okdata.online/mcp/?src=gh-tiktok-api)
+[Sign up free ($0.10 of trial credit)](https://okdata.online/signup/?src=gh-tiktok-api) · [All TikTok endpoints](https://okdata.online/apis/tiktok/?src=gh-tiktok-api) · [Use it from Claude, Cursor or any MCP client](https://okdata.online/mcp/?src=gh-tiktok-api)
 
 ## Endpoints
 
@@ -73,7 +73,7 @@ Then ask in plain words, for example "TikTok video search: ai agents". The agent
 
 **Do I need a TikTok account?** No. The data is public content, fetched on the server; your own account is never involved.
 
-**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. New accounts get a free trial of up to 333 calls; after that, top-ups start at $10 and never expire, with no subscription. Pricing: https://okdata.online/pricing/?src=gh-tiktok-api · Billing details: https://okdata.online/docs/billing/?src=gh-tiktok-api
+**How is it billed?** Each endpoint has its own price, listed above for one call; endpoints billed per item count what comes back. New accounts get $0.10 to try; after that, top-ups start at $10 and never expire, with no subscription. Pricing: https://okdata.online/pricing/?src=gh-tiktok-api · Billing details: https://okdata.online/docs/billing/?src=gh-tiktok-api
 
 **Why not TikTok's own APIs?** The Display API reads only the accounts that log in to your app, and the Research API is for approved academic and non-profit researchers. This returns what anyone can see on TikTok: search results, other creators' videos and profiles, comments, hashtags and ads.
 
