@@ -1,0 +1,938 @@
+{
+  "code": "ok",
+  "request_id": "b322cccc-164a-44a0-865e-b3493f9cd4e5",
+  "warnings": [],
+  "meta": {
+    "capability": "tiktok.videos.search",
+    "result_status": "complete",
+    "billing": {
+      "amount": "0.002",
+      "currency": "USD",
+      "balance_after": "9.055"
+    },
+    "unavailable": {
+      "metrics.reposts": "platform",
+      "title": "platform"
+    },
+    "cached": false,
+    "replayed": false,
+    "fetched_at": "2026-11-23T10:03:24.433Z"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "7710719884514266390",
+        "url": "https://www.tiktok.com/@creator_a/video/7710719884514266390",
+        "type": "video",
+        "text": "Stanford just put its whole course on building AI agents online, and it is free to watch. It is called CS329Z, Engineering AI Agents, and 8 public lectures are out so far. It starts with what an agent is, then covers context, how agents search your docs, tools and MCP, agent frameworks, design patterns, agent memory and multi-agent systems, including when more agents hurt. More lectures are still coming. Follow for more AI news like this. #aiagents #stanford #ai #learnai #mcp",
+        "lang": "en",
+        "published_at": "2026-11-21T20:11:20.000Z",
+        "author": {
+          "id": "769535…",
+          "username": "creator_a",
+          "name": "creator_a",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 6370,
+          "verified": false
+        },
+        "metrics": {
+          "views": 82099,
+          "likes": 3929,
+          "comments": 16,
+          "shares": 1374,
+          "favorites": 6170
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "stanford",
+          "ai",
+          "learnai",
+          "mcp"
+        ]
+      },
+      {
+        "id": "7710572539126254870",
+        "url": "https://www.tiktok.com/@creator_b/video/7710572539126254870",
+        "type": "video",
+        "text": "An Anthropic engineer showed how he runs a team of over 65 Claude agents that learn on their own. It's a 30-minute workshop on getting the most out of Claude Code while spending as little as possible. Almost everyone uses Opus 5.5 like a search engine; only 1% run swarms of agents. His agents run in a loop with a chief of staff agent on top and project management agents below it, which break the work into small pieces so each run stays cheap and focused. Follow for more AI news like this. #claudecode #aiagents #anthropic #claude #ai",
+        "lang": "en",
+        "published_at": "2026-11-21T10:39:33.000Z",
+        "author": {
+          "id": "770461…",
+          "username": "creator_b",
+          "name": "creator_b",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 616,
+          "verified": false
+        },
+        "metrics": {
+          "views": 57555,
+          "likes": 3168,
+          "comments": 20,
+          "shares": 419,
+          "favorites": 3490
+        },
+        "images": null,
+        "hashtags": [
+          "claudecode",
+          "aiagents",
+          "anthropic",
+          "claude",
+          "ai"
+        ]
+      },
+      {
+        "id": "7710691164373945622",
+        "url": "https://www.tiktok.com/@creator_b/video/7710691164373945622",
+        "type": "video",
+        "text": "Google released a free 2-hour course on building AI agents, from zero all the way up to a full agent team. It is all in one video, and it is built around the harness, the part of an agent most people do not understand. About 22 minutes in you build your first agent with the harness. Then it moves into harness and loop engineering, and graph engineering starts around the 50 minute mark. The last section walks you through a full multi-agent system that runs 24/7, built the right way. Follow for more AI news like this. #aiagents #google #ai #learnai #agentengineering",
+        "lang": "en",
+        "published_at": "2026-11-21T18:19:52.000Z",
+        "author": {
+          "id": "770461…",
+          "username": "creator_b",
+          "name": "creator_b",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 616,
+          "verified": false
+        },
+        "metrics": {
+          "views": 16935,
+          "likes": 591,
+          "comments": 5,
+          "shares": 217,
+          "favorites": 933
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "google",
+          "ai",
+          "learnai",
+          "agentengineering"
+        ]
+      },
+      {
+        "id": "7711028951639936308",
+        "url": "https://www.tiktok.com/@creator_c/video/7711028951639936308",
+        "type": "video",
+        "text": "How 36 AI Agents Run a Marketing Team in One Day  #techtok #claude #automatedsystem #automation #claudeautomation #systemdesign #system #designsystem #restructureai",
+        "lang": "en",
+        "published_at": "2026-11-22T16:11:52.000Z",
+        "author": {
+          "id": "735601…",
+          "username": "creator_c",
+          "name": "creator_c",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 65768,
+          "verified": false
+        },
+        "metrics": {
+          "views": 13253,
+          "likes": 708,
+          "comments": 5,
+          "shares": 122,
+          "favorites": 684
+        },
+        "images": null,
+        "hashtags": [
+          "techtok",
+          "claude",
+          "automatedsystem",
+          "automation",
+          "claudeautomation",
+          "systemdesign",
+          "system",
+          "designsystem",
+          "restructureai"
+        ]
+      },
+      {
+        "id": "7710191677092171022",
+        "url": "https://www.tiktok.com/@creator_d/video/7710191677092171022",
+        "type": "video",
+        "text": "Cloudflare's Code Mode introduces a different way for AI agents to interact with large API collections. Instead of exposing thousands of individual tool definitions, it provides a TypeScript interface that lets the model write code, chain API calls, and execute them inside a sandbox. In its 2,500-endpoint example, Cloudflare reports reducing tool-definition context from approximately 1.17 million tokens to around 1,000. Anthropic has also introduced Programmatic Tool Calling, while Block's Goose project explores code-based tool orchestration. In this video, I break down what this means for MCP and the future of AI agents. Cloudflare's original article: https://blog.cloudflare.com/code-mode-mcp/ Dm LINK for the breakdown and Claude Code Club access. #Cloudflare #MCP #ClaudeCode #AIAgents",
+        "lang": "en",
+        "published_at": "2026-11-20T10:01:43.000Z",
+        "author": {
+          "id": "728518…",
+          "username": "creator_d",
+          "name": "creator_d",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 99430,
+          "verified": false
+        },
+        "metrics": {
+          "views": 275719,
+          "likes": 14322,
+          "comments": 290,
+          "shares": 2795,
+          "favorites": 10923
+        },
+        "images": null,
+        "hashtags": null
+      },
+      {
+        "id": "7711009558554103072",
+        "url": "https://www.tiktok.com/@creator_e/video/7711009558554103072",
+        "type": "video",
+        "text": "A software factory is agentic coding at level 5. Comment how you check your agents' code. #ai #agents #developers ",
+        "lang": "en",
+        "published_at": "2026-11-22T14:55:23.000Z",
+        "author": {
+          "id": "741405…",
+          "username": "creator_e",
+          "name": "creator_e",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 728,
+          "verified": false
+        },
+        "metrics": {
+          "views": 36986,
+          "likes": 1210,
+          "comments": 53,
+          "shares": 240,
+          "favorites": 1445
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "agents",
+          "developers"
+        ]
+      },
+      {
+        "id": "7711061027210775838",
+        "url": "https://www.tiktok.com/@creator_f/video/7711061027210775838",
+        "type": "video",
+        "text": "The team behind n8n just released Nod, a free, open-source AI agent with its own computer and web browser. It logs into your accounts and handles your errands, like chasing refunds or booking appointments, without ever touching your computer. 🤯 #AI #n8n #AIagent #automation #opensource",
+        "lang": "en",
+        "published_at": "2026-11-22T18:15:33.000Z",
+        "author": {
+          "id": "731513…",
+          "username": "creator_f",
+          "name": "creator_f",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 41096,
+          "verified": false
+        },
+        "metrics": {
+          "views": 1808,
+          "likes": 80,
+          "comments": 6,
+          "shares": 19,
+          "favorites": 76
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "n8n",
+          "aiagent",
+          "automation",
+          "opensource"
+        ]
+      },
+      {
+        "id": "7710869292140481805",
+        "url": "https://www.tiktok.com/@creator_g/video/7710869292140481805",
+        "type": "video",
+        "text": "Not all AI agents do the same job 🤖 Some research. Some automate. Some code. Some answer customers. The first step to using AI the smart way? Knowing which tool is right for the job ✅ Understanding the difference can save you time and unnecessary frustration. Follow for simple AI tips that save you time ⏰ #AIAgents #AITools #SmallBusinessTips #ArtificialIntelligence #TechTips",
+        "lang": "en",
+        "published_at": "2026-11-22T05:51:31.000Z",
+        "author": {
+          "id": "766998…",
+          "username": "creator_g",
+          "name": "creator_g",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 2,
+          "verified": false
+        },
+        "metrics": {
+          "views": 128,
+          "likes": 5,
+          "comments": 0,
+          "shares": 1,
+          "favorites": 2
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "aitools",
+          "smallbusinesstips",
+          "artificialintelligence",
+          "techtips"
+        ]
+      },
+      {
+        "id": "7704823711915969814",
+        "url": "https://www.tiktok.com/@creator_h/video/7704823711915969814",
+        "type": "video",
+        "text": "8 AI agents working across scripts, editing, thumbnails, publishing and content management. 🤖 DM me with \"STUDIO\" or check my bio 👀 #AIagents #contentcreator #AIWorkflow #AIAutomation",
+        "lang": "en",
+        "published_at": "2026-11-06T18:30:00.000Z",
+        "author": {
+          "id": "769059…",
+          "username": "creator_h",
+          "name": "creator_h",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 1424,
+          "verified": false
+        },
+        "metrics": {
+          "views": 230028,
+          "likes": 9366,
+          "comments": 718,
+          "shares": 1362,
+          "favorites": 5256
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "contentcreator",
+          "aiworkflow",
+          "aiautomation"
+        ]
+      },
+      {
+        "id": "7711037378831453462",
+        "url": "https://www.tiktok.com/@creator_i/video/7711037378831453462",
+        "type": "video",
+        "text": "Always-on personal agent harness: event inbox, timers, permissions and outbox, in real code. You are probably familiar with Muse, Grok Bot, OpenAI Dots and Claude Duet. Why is everyone building a personal agent? The short answer is they are always on. ChatGPT or Claude does not know you have a task coming up unless you type it into the chat box. An always-on agent wakes up when something happens. After reading Anthropic's newly published \"Building always-on agents\", I made a huge upgrade on Waku Agent, my open source agent harness, and I break down the system design in 18 minutes. Then I run it live in Slack. I tag it and it wakes up. It refuses to read my inbox in a shared channel. A timer I set fires one minute later. The router for team agents is still on the chart, not in the code yet. You Can Build Anything. You Can Learn Anything. 💪 #aiagents #claude #anthropic #agentharness #opensource",
+        "lang": "en",
+        "published_at": "2026-11-22T16:43:23.000Z",
+        "author": {
+          "id": "664276…",
+          "username": "creator_i",
+          "name": "creator_i",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 10124,
+          "verified": false
+        },
+        "metrics": {
+          "views": 2931,
+          "likes": 216,
+          "comments": 5,
+          "shares": 35,
+          "favorites": 180
+        },
+        "images": null,
+        "hashtags": null
+      },
+      {
+        "id": "7709600411010747681",
+        "url": "https://www.tiktok.com/@creator_j/video/7709600411010747681",
+        "type": "video",
+        "text": "What is an AI agent? It gets a goal and works out the steps itself, using three parts: a brain (an AI model like Claude), memory, and tools like your browser and email. Day 49 of 100. #claudeai #aiagents #aitools ",
+        "lang": "en",
+        "published_at": "2026-11-18T19:47:10.000Z",
+        "author": {
+          "id": "769873…",
+          "username": "creator_j",
+          "name": "creator_j",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 13321,
+          "verified": false
+        },
+        "metrics": {
+          "views": 3971,
+          "likes": 189,
+          "comments": 8,
+          "shares": 23,
+          "favorites": 130
+        },
+        "images": null,
+        "hashtags": [
+          "claudeai",
+          "aiagents",
+          "aitools"
+        ]
+      },
+      {
+        "id": "7710239385525980423",
+        "url": "https://www.tiktok.com/@creator_k/video/7710239385525980423",
+        "type": "video",
+        "text": "Your AI agent bill could drop over 60% without your team changing a single workflow. Qwen4-Max on Alibaba Cloud is now live, and it changes the economics of enterprise AI agents. Most teams pay $20+ per 1M tokens for frontier models that are overkill for 80% of agent tasks — Qwen4-Max delivers comparable capability at $1.50 input / $4.50 output. Add a 1M-token context window, OpenAI and Anthropic compatible APIs so your existing agents switch unchanged, governance built into the platform, and one multimodal ecosystem (text, image, audio, video). When agent costs drop 60%+, you stop rationing AI and start deploying it everywhere. #AIAgents #AgenticAI #AI #AIDataTech",
+        "lang": "en",
+        "published_at": "2026-11-20T13:06:47.000Z",
+        "author": {
+          "id": "735561…",
+          "username": "creator_k",
+          "name": "creator_k",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 17574,
+          "verified": false
+        },
+        "metrics": {
+          "views": 1547,
+          "likes": 50,
+          "comments": 1,
+          "shares": 8,
+          "favorites": 29
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "agenticai",
+          "ai",
+          "aidatatech"
+        ]
+      },
+      {
+        "id": "7710787465161870606",
+        "url": "https://www.tiktok.com/@creator_l/video/7710787465161870606",
+        "type": "video",
+        "text": "🚀 Join AI Builders in profile for full training.  While everyone’s playing GTA 6, I’m building a business around it. 😂🎮 shoutout to @creator_ac  I just built an AI clipping farm that finds clips, edits them, and automatically reposts them across social media. And the best part? AI does the heavy lifting while I focus on building. You can build stuff like this too.",
+        "lang": "en",
+        "published_at": "2026-11-22T00:33:43.000Z",
+        "author": {
+          "id": "666386…",
+          "username": "creator_l",
+          "name": "creator_l",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 528177,
+          "verified": false
+        },
+        "metrics": {
+          "views": 23741,
+          "likes": 913,
+          "comments": 80,
+          "shares": 314,
+          "favorites": 830
+        },
+        "images": null,
+        "hashtags": null
+      },
+      {
+        "id": "7710659805802745102",
+        "url": "https://www.tiktok.com/@creator_m/video/7710659805802745102",
+        "type": "video",
+        "text": "Day 2 of 90. I asked AI for a business that's 80% AI and 20% me. It built Find My Funders: bots that read IRS grant records and match nonprofits to funders. Under $20 spent. Three $99 sales. $300 so far. Follow along. #90daychallenge #makemoneywithai #aiagents #sidehustle #buildinpublic #nonprofit",
+        "lang": "en",
+        "published_at": "2026-11-21T16:18:29.000Z",
+        "author": {
+          "id": "675586…",
+          "username": "creator_m",
+          "name": "creator_m",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 1374,
+          "verified": false
+        },
+        "metrics": {
+          "views": 21137,
+          "likes": 978,
+          "comments": 76,
+          "shares": 165,
+          "favorites": 694
+        },
+        "images": null,
+        "hashtags": [
+          "90daychallenge",
+          "makemoneywithai",
+          "aiagents",
+          "sidehustle",
+          "buildinpublic",
+          "nonprofit"
+        ]
+      },
+      {
+        "id": "7709377096983891201",
+        "url": "https://www.tiktok.com/@creator_n/video/7709377096983891201",
+        "type": "video",
+        "text": "The full map is free. Link in bio. This is one company, drawn as a map. At the top: the tools it already runs on. Inbox, CRM, calendar, team chat, payments, books, files, calls. In the middle: Claude, reading all of it. Around it, seven departments. Sales (22 AI agents) builds the list, scores the fit and writes the first email. Deals (24) books the meeting, sends the proposal and keeps following up. Marketing (23) writes the hooks, the captions and the posts. Customer (14) triages tickets and spots accounts going quiet. Operations (19) handles kickoff, status updates and data moves. Back office (18) invoices, collects and tracks the budget. Intelligence (17) researches people and pricing before you walk in. Underneath sits one knowledge base they all read: SOPs, brand voice, price book, contracts. One job per agent. One written workflow per job. You approve anything that reaches a client, from your phone, and at 7 am you get a single page with what happened overnight. #aiagents #claude #automation #skilltree #aitools",
+        "lang": "en",
+        "published_at": "2026-11-18T05:20:38.000Z",
+        "author": {
+          "id": "770719…",
+          "username": "creator_n",
+          "name": "creator_n",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 6067,
+          "verified": false
+        },
+        "metrics": {
+          "views": 147039,
+          "likes": 9437,
+          "comments": 1859,
+          "shares": 2316,
+          "favorites": 9758
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "claude",
+          "automation",
+          "skilltree",
+          "aitools"
+        ]
+      },
+      {
+        "id": "7709242781750889748",
+        "url": "https://www.tiktok.com/@creator_o/video/7709242781750889748",
+        "type": "video",
+        "text": "Claude can access websites and social media platforms locked behind logins or paywalls. This agent is insane to build your own custom skills, find business ideas and viral frameworks for your social content #claude #claudeskill #aiagent #claudeai ",
+        "lang": "en",
+        "published_at": "2026-11-17T20:39:30.000Z",
+        "author": {
+          "id": "886968…",
+          "username": "creator_o",
+          "name": "creator_o",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 724957,
+          "verified": false
+        },
+        "metrics": {
+          "views": 144357,
+          "likes": 7164,
+          "comments": 79,
+          "shares": 1825,
+          "favorites": 10443
+        },
+        "images": null,
+        "hashtags": [
+          "claude",
+          "claudeskill",
+          "aiagent",
+          "claudeai"
+        ]
+      },
+      {
+        "id": "7711207652277226766",
+        "url": "https://www.tiktok.com/@creator_p/video/7711207652277226766",
+        "type": "video",
+        "text": "all 10 tools are linked in my bio my top 10 AI tools in under 30 seconds: Claude Code, ChatGPT Dots, Zernio, OpenSEO, Wispr Flow, Fathom, Paradev, Metricool, Twenty & Beeper. most of them give my AI agents more context & more reach. #aitools #aiagents #claudecode #ai #productivity",
+        "lang": "en",
+        "published_at": "2026-11-23T03:44:16.000Z",
+        "author": {
+          "id": "670658…",
+          "username": "creator_p",
+          "name": "creator_p",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 3684,
+          "verified": false
+        },
+        "metrics": {
+          "views": 325,
+          "likes": 20,
+          "comments": 0,
+          "shares": 4,
+          "favorites": 11
+        },
+        "images": null,
+        "hashtags": [
+          "aitools",
+          "aiagents",
+          "claudecode",
+          "ai",
+          "productivity"
+        ]
+      },
+      {
+        "id": "7711093267563089166",
+        "url": "https://www.tiktok.com/@creator_q/video/7711093267563089166",
+        "type": "video",
+        "text": "My social media runs on 6 AI agents 🤖 A researcher finds what your niche is watching, a competitor agent checks what works for accounts like yours, then video, editing, approval and posting. Nothing goes out until you hit approve, and posting goes through each platform's official tools. Comment “AGENTS” and I’ll send you the setup📩 #claude #automation #SmallBusiness #aitools ",
+        "lang": "en",
+        "published_at": "2026-11-22T20:20:34.000Z",
+        "author": {
+          "id": "770856…",
+          "username": "creator_q",
+          "name": "creator_q",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 25,
+          "verified": false
+        },
+        "metrics": {
+          "views": 333,
+          "likes": 15,
+          "comments": 5,
+          "shares": 8,
+          "favorites": 10
+        },
+        "images": null,
+        "hashtags": [
+          "claude",
+          "automation",
+          "smallbusiness",
+          "aitools"
+        ]
+      },
+      {
+        "id": "7709052323225455875",
+        "url": "https://www.tiktok.com/@creator_r/video/7709052323225455875",
+        "type": "video",
+        "text": "An Anthropic engineer built her entire Claude Code setup live in about 10 minutes, starting from a completely empty terminal. First she sets up her agents, then puts them into loops, moves to graphs and ends with a system that improves itself. Her take: prompting is basically over, 95% of Anthropic's engineers already run self-improving loops, and graphs are next. The old way was writing better prompts. The new way is building the system around Claude. Follow for more AI news like this. #claudecode #anthropic #aiagents #ai #coding",
+        "lang": "en",
+        "published_at": "2026-11-17T08:20:24.000Z",
+        "author": {
+          "id": "770462…",
+          "username": "creator_r",
+          "name": "creator_r",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 2536,
+          "verified": false
+        },
+        "metrics": {
+          "views": 352355,
+          "likes": 20230,
+          "comments": 97,
+          "shares": 1915,
+          "favorites": 17021
+        },
+        "images": null,
+        "hashtags": [
+          "claudecode",
+          "anthropic",
+          "aiagents",
+          "ai",
+          "coding"
+        ]
+      },
+      {
+        "id": "7709275531425910037",
+        "url": "https://www.tiktok.com/@creator_s/video/7709275531425910037",
+        "type": "video",
+        "text": "How I made my morning joe more productive. Give those tasks to @googlegemini  while you enjoy your ☕. What would you hand it first? #GooglePartner #aitools #aiagents",
+        "lang": "en",
+        "published_at": "2026-11-17T22:46:37.000Z",
+        "author": {
+          "id": "686915…",
+          "username": "creator_s",
+          "name": "creator_s",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 529345,
+          "verified": false
+        },
+        "metrics": {
+          "views": 4514750,
+          "likes": 20677,
+          "comments": 4,
+          "shares": 115,
+          "favorites": 1420
+        },
+        "images": null,
+        "hashtags": [
+          "googlepartner",
+          "aitools",
+          "aiagents"
+        ]
+      },
+      {
+        "id": "7701047538798824710",
+        "url": "https://www.tiktok.com/@creator_t/video/7701047538798824710",
+        "type": "video",
+        "text": "Wait, Claude can build your OWN AI Agents now?! Here’s how to try it and save for later 👉 #aiagents #claude #howto #tutorial ",
+        "lang": "en",
+        "published_at": "2026-10-27T03:35:00.000Z",
+        "author": {
+          "id": "762603…",
+          "username": "creator_t",
+          "name": "creator_t",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 11445,
+          "verified": false
+        },
+        "metrics": {
+          "views": 191714,
+          "likes": 9141,
+          "comments": 87,
+          "shares": 2264,
+          "favorites": 12992
+        },
+        "images": null,
+        "hashtags": [
+          "aiagents",
+          "claude",
+          "howto",
+          "tutorial"
+        ]
+      },
+      {
+        "id": "7710673203298913550",
+        "url": "https://www.tiktok.com/@creator_u/video/7710673203298913550",
+        "type": "video",
+        "text": "Discover a recent Nvidia app setting that may have been enabled without your knowledge. This feature allows AI agents to control the app, but you might not want it on. Learn more about what this means for your system. #Nvidia #AIAgents #GraphicsCard #TechTips #PrivacySettings #AppUpdate #ComputerSecurity",
+        "lang": "en",
+        "published_at": "2026-11-21T17:10:24.000Z",
+        "author": {
+          "id": "770748…",
+          "username": "creator_u",
+          "name": "creator_u",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 917,
+          "verified": false
+        },
+        "metrics": {
+          "views": 933531,
+          "likes": 63323,
+          "comments": 489,
+          "shares": 12675,
+          "favorites": 47594
+        },
+        "images": null,
+        "hashtags": [
+          "nvidia",
+          "aiagents",
+          "graphicscard",
+          "techtips",
+          "privacysettings",
+          "appupdate",
+          "computersecurity"
+        ]
+      },
+      {
+        "id": "7707135325793144085",
+        "url": "https://www.tiktok.com/@creator_c/video/7707135325793144085",
+        "type": "video",
+        "text": "I Built an Entire AI Marketing Team With 0 Employees #techtok #claude #automatedsystem #automation #claudeautomation #systemdesign #system #designsystem #restructureai",
+        "lang": "en",
+        "published_at": "2026-11-12T04:21:29.000Z",
+        "author": {
+          "id": "735601…",
+          "username": "creator_c",
+          "name": "creator_c",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 65768,
+          "verified": false
+        },
+        "metrics": {
+          "views": 949511,
+          "likes": 43432,
+          "comments": 283,
+          "shares": 12804,
+          "favorites": 49318
+        },
+        "images": null,
+        "hashtags": [
+          "techtok",
+          "claude",
+          "automatedsystem",
+          "automation",
+          "claudeautomation",
+          "systemdesign",
+          "system",
+          "designsystem",
+          "restructureai"
+        ]
+      },
+      {
+        "id": "7711160464457075982",
+        "url": "https://www.tiktok.com/@creator_v/video/7711160464457075982",
+        "type": "video",
+        "text": "claude + AI agents will make you rich… #claude #onlinebusiness #highticketproduct #highticketsales ",
+        "lang": "en",
+        "published_at": "2026-11-23T00:41:17.000Z",
+        "author": {
+          "id": "726489…",
+          "username": "creator_v",
+          "name": "creator_v",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 115067,
+          "verified": false
+        },
+        "metrics": {
+          "views": 589,
+          "likes": 46,
+          "comments": 1,
+          "shares": 10,
+          "favorites": 37
+        },
+        "images": null,
+        "hashtags": [
+          "claude",
+          "onlinebusiness",
+          "highticketproduct",
+          "highticketsales"
+        ]
+      },
+      {
+        "id": "7711300706090683662",
+        "url": "https://www.tiktok.com/@creator_w/video/7711300706090683662",
+        "type": "video",
+        "text": "PUT YOUR AI AGENT ON A VPS🚨 NOT ON VERCEL #ai #aiagent #aiagents #vibecoding",
+        "lang": "en",
+        "published_at": "2026-11-23T09:46:14.000Z",
+        "author": {
+          "id": "767789…",
+          "username": "creator_w",
+          "name": "creator_w",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 10207,
+          "verified": false
+        },
+        "metrics": {
+          "views": 50,
+          "likes": 1,
+          "comments": 0,
+          "shares": 1,
+          "favorites": 0
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "aiagent",
+          "aiagents",
+          "vibecoding"
+        ]
+      },
+      {
+        "id": "7699585028031843604",
+        "url": "https://www.tiktok.com/@creator_x/video/7699585028031843604",
+        "type": "video",
+        "text": "People are wasting their time building AI agents. A model on its own needs context to be useful: prompts and instructions, tools it can call, and data it can trust. The old way was to write code that wires those three to the model, call it agent one, and do it again for every workflow. Harnesses like Claude Code and Codex already let an AI read and write your files, so you can put your prompts, tools and data in folders and let one AI become whatever agent your question needs. If you want something to study for the next ten years, I'd pick the Unix philosophy, Douglas Engelbart's 1962 report Augmenting Human Intellect, and plain old software logic. The long version, Do You Actually Need AI Agents?, is on my YouTube. Link in my bio. youtube.com/@creator_ad #ai #aiagents #claudecode",
+        "lang": "en",
+        "published_at": "2026-10-22T20:02:07.000Z",
+        "author": {
+          "id": "660919…",
+          "username": "creator_x",
+          "name": "creator_x",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 52564,
+          "verified": false
+        },
+        "metrics": {
+          "views": 584498,
+          "likes": 26958,
+          "comments": 640,
+          "shares": 4270,
+          "favorites": 20446
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "aiagents",
+          "claudecode"
+        ]
+      },
+      {
+        "id": "7711167919090158862",
+        "url": "https://www.tiktok.com/@creator_y/video/7711167919090158862",
+        "type": "video",
+        "text": "Setting up an AI agent for your business? Check its permissions. Reading your calendar and deleting events are different jobs. #ai #ainews #futureofai #aiforbusiness Clip from \"Can You Trust AI Agents With Your Business Data? (2026/689)\" by Ask Charly Leetham on YouTube (youtu.be/RWyv8gS66dc), used under the Creative Commons Attribution licence (CC BY 3.0). Edited for length and format.",
+        "lang": "en",
+        "published_at": "2026-11-23T01:10:05.000Z",
+        "author": {
+          "id": "755165…",
+          "username": "creator_y",
+          "name": "creator_y",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 5,
+          "verified": false
+        },
+        "metrics": {
+          "views": 97,
+          "likes": 0,
+          "comments": 2,
+          "shares": 0,
+          "favorites": 1
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "ainews",
+          "futureofai",
+          "aiforbusiness"
+        ]
+      },
+      {
+        "id": "7696337669529390344",
+        "url": "https://www.tiktok.com/@creator_z/video/7696337669529390344",
+        "type": "video",
+        "text": "OpenAI just rolled out a new feature that lets anyone build their own AI agent. The DIY AI era keeps getting more real. OpenAI发布新功能，人人都能做自己的AI智能体 #OpenAI #AIAgent #ArtificialIntelligence #foryou ",
+        "lang": "zh-Hans",
+        "published_at": "2026-10-14T02:01:01.000Z",
+        "author": {
+          "id": "757275…",
+          "username": "creator_z",
+          "name": "creator_z",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 1300,
+          "verified": false
+        },
+        "metrics": {
+          "views": 14135,
+          "likes": 239,
+          "comments": 7,
+          "shares": 67,
+          "favorites": 183
+        },
+        "images": null,
+        "hashtags": [
+          "openai",
+          "aiagent",
+          "artificialintelligence",
+          "foryou"
+        ]
+      },
+      {
+        "id": "7670286157430787350",
+        "url": "https://www.tiktok.com/@creator_aa/video/7670286157430787350",
+        "type": "video",
+        "text": "4 AI Agents To Automate 99% Of Your Life. Automate everyday workflows using AI agents without needing coding skills. The first pillar, Coordination, focuses on managing your Gmail inbox and Google Calendar to reclaim your daily focus. It teaches how to build agents that review unread emails, sort them into priority buckets, and draft intelligent responses. The second pillar, Creativity, turns rough notes into formatted pitch decks and professional documents using predefined skills. This allows you to rapidly build PowerPoint presentations while maintaining control over the direction and brand style. The third pillar, Clarity, helps analyze complex contracts, legal documents, and market research. It uses a microscope approach to break down dense text into plain-English risk assessments and structured summaries. The fourth pillar, Coaching, utilizes voice mode to simulate job interviews, negotiations, or high-stakes business meetings. By roleplaying with AI personas, you can practice your responses out loud and receive constructive feedback. #artificialintelligence #tecnologia #aiagents #automatic #Future #Productivity #airsoft #aidangallagher #ai",
+        "lang": "en",
+        "published_at": "2026-08-04T21:07:49.000Z",
+        "author": {
+          "id": "751653…",
+          "username": "creator_aa",
+          "name": "creator_aa",
+          "avatar_url": "https://p19-common-sign.tiktokcdn-us.com/…",
+          "followers": 15878,
+          "verified": false
+        },
+        "metrics": {
+          "views": 893174,
+          "likes": 69196,
+          "comments": 416,
+          "shares": 11515,
+          "favorites": 68000
+        },
+        "images": null,
+        "hashtags": [
+          "artificialintelligence",
+          "tecnologia",
+          "aiagents",
+          "automatic",
+          "future",
+          "productivity",
+          "airsoft",
+          "aidangallagher",
+          "ai"
+        ]
+      },
+      {
+        "id": "7646249622893038879",
+        "url": "https://www.tiktok.com/@creator_ab/video/7646249622893038879",
+        "type": "video",
+        "text": "AI Agent Ecosystem Tour 2 #ai #claude ",
+        "lang": "en",
+        "published_at": "2026-06-01T02:33:55.000Z",
+        "author": {
+          "id": "682904…",
+          "username": "creator_ab",
+          "name": "creator_ab",
+          "avatar_url": "https://p16-common-sign.tiktokcdn-us.com/…",
+          "followers": 82919,
+          "verified": false
+        },
+        "metrics": {
+          "views": 1688646,
+          "likes": 143869,
+          "comments": 1772,
+          "shares": 38149,
+          "favorites": 50148
+        },
+        "images": null,
+        "hashtags": [
+          "ai",
+          "claude"
+        ]
+      }
+    ]
+  },
+  "page": {
+    "next_cursor": "c1.m1J2GKTD_4oL6Qt3sF8ajA",
+    "cursor_expires_at": "2026-11-24T10:03:24.434Z",
+    "has_more": true,
+    "returned": 30
+  }
+}

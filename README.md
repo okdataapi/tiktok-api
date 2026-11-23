@@ -44,6 +44,19 @@ The Python version is [examples/quickstart.py](examples/quickstart.py) (standard
 
 Every endpoint answers in the same shape: the list is in `data.items`, `page.next_cursor` goes back as `cursor` for the next page, what the call cost is in `meta.billing.amount`, and a field the platform does not provide is null with the reason in `meta.unavailable`.
 
+### Real output (run on 2026-11-23)
+
+The curl above returned 30 videos that day, with a `page.next_cursor` for more. The first three, creator handles replaced:
+
+```console
+7710719884514266390  creator_a  82,099 views  Stanford just put its whole course on building AI agents online…
+7710572539126254870  creator_b  57,555 views  An Anthropic engineer showed how he runs a team of over 65 Claude agents…
+7710691164373945622  creator_b  16,935 views  Google released a free 2-hour course on building AI agents…
+cost $0.002
+```
+
+The full response is in [examples/tiktok.videos.search.json](examples/tiktok.videos.search.json): 30 videos with views, likes, comments, shares, saves, hashtags and time posted. Search results change; yours reflect the moment you call.
+
 ## Use it from AI (MCP)
 
 Claude Code:
